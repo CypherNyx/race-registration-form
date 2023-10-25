@@ -2,6 +2,7 @@
 
 body {
   background: #ff5520;
+
 }
 
 h1 {
@@ -13,9 +14,45 @@ h1 {
   font-size: 5em;
 }
 
+body>main>form>div>label {
+  padding: 0 10px;
+}
+
+body>main>form {
+  color: #f3eeee;
+  font-family: 'Mulish', sans-serif;
+  font-size: 1.15rem;
+}
+
+.input-group {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #4CAF50;
+  border-color: #009688;
+}
+
+.btn-primary:hover {
+  background-color: #009688;
+
+}
+
+.form-check-input:checked {
+  background-color: #4CAF50;
+  border-color: #009688;
+}
+
 @media (max-width: 768px) {
   h1 {
     font-size: 3em;
+  }
+
+  .input-group .form-label {
+    flex-basis: 100%;
+    margin-bottom: 10px;
   }
 }
 
