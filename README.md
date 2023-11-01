@@ -12,9 +12,9 @@ This repository contains a simple HTML landing page with a styled form for signi
 
 ## Screenshot
 
-You can check out the live demo of the Marathon Race Sign-up Page [here](#insert-demo-link).
+You can check out the live demo of the Race Sign-up Page [here](https://cyphernyx.github.io/race-registration-form/).
 
-![Marathon Race Sign-up Page](#insert-screenshot-gif)
+![Marathon Race Sign-up Page](./assets/screencapture-cyphernyx-github-io-race-registration-form-2023-10-31-22_38_15.png)
 
 ## Features
 
