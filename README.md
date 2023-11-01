@@ -1,10 +1,14 @@
 # Race Registration Sign-up Page
+> Deployed with GitHub Pages 🔗https://cyphernyx.github.io/race-registration-form/
 
-This repository contains a simple HTML landing page with a styled form for signing up for a marathon race.
+### Description
+
+This repository contains a simple Marathon Registration Form using HTML, CSS and Bootstrap to create a landing page with a styled form ready to allow users to sign up for a marathon race.
 
 ## Table of Contents
 
 - [Screenshot](#screenshot)
+- [Technologies](#technologies)
 - [Features](#features)
 - [Usage](#usage)
 - [Contributing](#contributing)
@@ -12,9 +16,17 @@ This repository contains a simple HTML landing page with a styled form for signi
 
 ## Screenshot
 
-You can check out the live demo of the Race Sign-up Page [here](https://cyphernyx.github.io/race-registration-form/).
+You can check out the live demo of the Marathon Registration Form [here](https://cyphernyx.github.io/race-registration-form/).
 
 ![Marathon Race Sign-up Page](./assets/screencapture-cyphernyx-github-io-race-registration-form-2023-10-31-22_38_15.png)
+
+## Technologies
+![HTML5](https://img.shields.io/badge/HTML5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
+
+
+
 
 ## Features
 
