@@ -64,6 +64,10 @@ nav>ul>li>a {
   font-family: 'Mulish', sans-serif;
 }
 
+nav>ul>li>a:hover {
+  color: var(--highlighter);
+}
+
 #pageLogo {
   padding: 1.2%;
   font-family: 'Mulish';
@@ -71,7 +75,14 @@ nav>ul>li>a {
   text-decoration: none;
   font-size: 1.5em;
   color: #ffffff;
+}
 
+svg:hover {
+  fill: var(--highlighter);
+}
+
+#pageLogo:hover {
+  color: var(--highlighter);
 }
 
 .background {
@@ -164,6 +175,13 @@ body>div>main>form {
   .input-group .form-label {
     flex-basis: 100%;
     margin-bottom: 10px;
+  }
+
+  nav,
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
   }
 }
 
