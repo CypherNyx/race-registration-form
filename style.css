@@ -12,7 +12,7 @@
 body {
   background: var(--main-bg-color);
   margin: 0;
-
+  box-sizing: border-box;
 }
 
 main {
@@ -22,6 +22,7 @@ main {
   align-items: center;
 }
 
+/* background banner animation*/
 .wrapper {
   display: flex;
   flex-direction: column;
@@ -39,50 +40,6 @@ header {
   height: 100%;
   transform-style: preserve-3d;
   z-index: -1;
-}
-
-nav {
-  padding: 0 3%;
-  display: flex;
-  font-size: 1.5em;
-  justify-content: space-between;
-  background-color: var(--tertiary-color);
-
-}
-
-nav>ul {
-  display: flex;
-  flex: 1;
-  max-width: 50%;
-  list-style-type: none;
-  justify-content: space-evenly;
-}
-
-nav>ul>li>a {
-  text-decoration: none;
-  color: white;
-  font-family: 'Mulish', sans-serif;
-}
-
-nav>ul>li>a:hover {
-  color: var(--highlighter);
-}
-
-#pageLogo {
-  padding: 1.2%;
-  font-family: 'Mulish';
-  font-weight: 700;
-  text-decoration: none;
-  font-size: 1.5em;
-  color: #ffffff;
-}
-
-svg:hover {
-  fill: var(--highlighter);
-}
-
-#pageLogo:hover {
-  color: var(--highlighter);
 }
 
 .background {
@@ -136,6 +93,53 @@ h1 {
   font-size: 5em;
 }
 
+
+/*Responsive Navbar */
+nav {
+  padding: 0 3%;
+  display: flex;
+  font-size: 1.5em;
+  justify-content: space-between;
+  background-color: var(--tertiary-color);
+}
+
+nav>ul {
+  display: flex;
+  flex: 1;
+  max-width: 50%;
+  list-style-type: none;
+  justify-content: space-evenly;
+}
+
+nav>ul>li>a {
+  text-decoration: none;
+  color: white;
+  font-family: 'Mulish', sans-serif;
+}
+
+nav>ul>li>a:hover {
+  color: var(--highlighter);
+}
+
+#pageLogo {
+  padding: 1.2%;
+  font-family: 'Mulish';
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 1.5em;
+  color: #ffffff;
+}
+
+svg:hover {
+  fill: var(--highlighter);
+}
+
+#pageLogo:hover {
+  color: var(--highlighter);
+}
+
+
+/* Form Styling */
 body>div>main>form>div>label {
   padding: 0 10px;
 }
@@ -167,6 +171,7 @@ body>div>main>form {
   border-color: var(--hover-color);
 }
 
+/** Media Queries **/
 @media (max-width: 768px) {
   h1 {
     font-size: 3em;

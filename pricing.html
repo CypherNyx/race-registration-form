@@ -8,16 +8,18 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="pricing.css">
 </head>
 
 <body>
+
   <nav>
     <a href="/" id="pageLogo">RaceOn</a>
     <ul class="pt-4">
       <li><a href="/">Register</a></li>
       <li><a href="/pricing.html">Pricing</a></li>
       <li><a href="https://findarace.com/us/running/marathons/texas" target="_blank">
-        Find Another Race
+          Find Another Race
           <svg xmlns="http://www.w3.org/2000/svg" height="0.875em" viewBox="0 0 512 512">
             <style>
               svg {
@@ -30,7 +32,53 @@
         </a></li>
     </ul>
   </nav>
-  <main>
+
+  <main class="panel pricing-table">
+    <div class="pricing-plan">
+      <img src="./assets/marathon_pricing_icon_fun.png" alt="FunRun" class="pricing-img" />
+      <h2 class="pricing-header">FunRun</h2>
+      <ul class="pricing-features">
+        <li class="pricing-features-item">5K</li>
+        <li class="pricing-features-item">All ages</li>
+        <li class="pricing-features-item">
+          <p> GREAT WAY TO GET STARTED WITH RUNNING, OR TO ENJOY A CASUAL RACE WITH FRIENDS AND FAMILY. THIS RACE IS
+            OPEN TO ALL AGES AND ABILITIES.</p>
+        </li>
+      </ul>
+      <span class="pricing-price">Free</span>
+      <a href="#" class="pricing-button">Register</a>
+    </div>
+
+    <div class="pricing-plan">
+      <img src="./assets/marathon_pricing_icon_half.png" alt="FunRun" class="pricing-img" />
+      <h2 class="pricing-header">Half Marathon</h2>
+      <ul class="pricing-features">
+        <li class="pricing-features-item">13.1 miles</li>
+        <li class="pricing-features-item">Ages 18+</li>
+        <li class="pricing-features-item">
+          <p>A REWARDING YET CHALLENGING COURSE FOR COMPETITIVE AND RECREATIONAL RUNNERS ALIKE. THIS EVENT IS OPEN TO
+            RUNNERS 18 AND OLDER. </p>
+        </li>
+
+      </ul>
+      <span class="pricing-price">Free</span>
+      <a href="#" class="pricing-button is-featured">Register</a>
+    </div>
+
+    <div class="pricing-plan">
+      <img src="./assets/marathon_pricing_icon_full.png" alt="FunRun" class="pricing-img" />
+      <h2 class="pricing-header">Full Marathon</h2>
+      <ul class="pricing-features">
+        <li class="pricing-features-item">26.2 miles</li>
+        <li class="pricing-features-item">Ages 18+</li>
+        <li class="pricing-features-item">
+          <p>THE DEFINITIVE TEST OF ENDURANCE FOR ALL LEVELS OF RUNNERS. THIS EXHILARATING RACE IS OPEN TO PARTICIPANTS
+            18 YEARS AND OLDER.</p>
+        </li>
+      </ul>
+      <span class="pricing-price">Free</span>
+      <a href="#" class="pricing-button">Register</a>
+    </div>
 
   </main>
 </body>
