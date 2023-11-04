@@ -19,6 +19,7 @@ This repository contains a simple Marathon Registration Form using HTML, CSS and
 You can check out the live demo of the Marathon Registration Form [here](https://cyphernyx.github.io/race-registration-form/).
 
 ![Marathon Race Sign-up Page](./assets/screencapture-cyphernyx-github-io-race-registration-form-2023-10-31-22_38_15.png)
+![Pricing Panel](./assets/screencapture-127-0-0-1-5500-pricing-html-2023-11-03-23_51_27.png)
 
 ## Technologies
 ![HTML5](https://img.shields.io/badge/HTML5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
