@@ -78,8 +78,9 @@ Pull requests are welcome. Please open an issue first to discuss any proposed ch
 
 ### Attributions
 
-- Background Image by <a href="https://www.freepik.com/free-psd/running-shoes-banner-template_10244684.htm#from_view=detail_serie">Freepik</a>
-- Marathon Icon SVG <a href="https://www.freepik.com/free-vector/marathon-runners-isometric-icons-set-running-athletes-sports-equipment-isolated-vector-illustration_58596498.htm#page=2&query=running%20icons&position=15&from_view=search&track=ais">Icon pack by macrovector</a> on Freepik
+- Background Image by <a href="https://www.freepik.com/free-psd/running-shoes-banner-template_10244684.htm#from_view=detail_serie" target="_blank">Freepik</a>
+- Marathon Icon SVG <a href="https://www.freepik.com/free-vector/marathon-runners-isometric-icons-set-running-athletes-sports-equipment-isolated-vector-illustration_58596498.htm#page=2&query=running%20icons&position=15&from_view=search&track=ais" target="_blank">Icon pack by macrovector</a> on Freepik
+- Pricing Panel heavily inspired by <a href="https://codepen.io/travisw/pen/EvbKwd" target="_blank">Travis Williamson @ CodePen</a>
 
   ## Questions
   GitHub [CypherNyx](https://github.com/CypherNyx)<br>
