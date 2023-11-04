@@ -12,7 +12,7 @@
 body {
   background: var(--main-bg-color);
   margin: 0;
-
+  box-sizing: border-box;
 }
 
 main {
@@ -101,7 +101,6 @@ nav {
   font-size: 1.5em;
   justify-content: space-between;
   background-color: var(--tertiary-color);
-
 }
 
 nav>ul {
@@ -171,9 +170,6 @@ body>div>main>form {
   background-color: var(--selector);
   border-color: var(--hover-color);
 }
-
-/** Pricing Panel **/
-
 
 /** Media Queries **/
 @media (max-width: 768px) {
