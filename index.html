@@ -14,10 +14,10 @@
 <body>
   <div class="wrapper">
     <nav>
-      <a href="/" id="pageLogo">RaceOn</a>
+      <a href="index.html" id="pageLogo">RaceOn</a>
       <ul class="pt-4">
-        <li><a href="/">Register</a></li>
-        <li><a href="/pricing.html">Pricing</a></li>
+        <li><a href="index.html">Register</a></li>
+        <li><a href="pricing.html">Pricing</a></li>
         <li><a href="https://findarace.com/us/running/marathons/texas" target="_blank">
             Find Another Race
             <svg xmlns="http://www.w3.org/2000/svg" height="0.875em" viewBox="0 0 512 512">
@@ -43,31 +43,42 @@
     <main class="container-lg mt-4 d-flex">
 
       <form action="">
-        <div class="input-group mb-3">
-          <label for="first" class="form-label">First Name: </label>
-          <input type="text" class="form-control" id="first" name="firstname" required>
-          <label for="last" class="form-label">Last Name: </label>
-          <input type="text" class="form-control" id="last" name="lasttname" required>
+        <div class="row mb-3">
+          <div class="form-group col-md-6">
+            <label for="first" class="form-label">First Name: </label>
+            <input type="text" class="form-control" id="first" name="firstname" required>
+          </div>
+          <div class="form-group col-md-6">
+            <label for="last" class="form-label">Last Name: </label>
+            <input type="text" class="form-control" id="last" name="lasttname" required>
+          </div>
         </div>
 
         <p class="fs-3 ">Select Race</p>
-        <div class="form-check">
-          <input type="radio" class="form-check-input" name="race" id="funrun" value="funrun">
-          <label class="form-check-label" for="funrun">Fun Run 5k</label>
+
+        <div class="form-group">
+          <div class="form-check">
+            <input type="radio" class="form-check-input" name="race" id="funrun" value="funrun">
+            <label class="form-check-label" for="funrun">Fun Run 5k</label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="race" id="half" value="half">
+            <label class="form-check-label" for="half">Half Marathon</label>
+          </div>
+          <div class="form-check mb-4">
+            <input class="form-check-input" type="radio" name="race" id="full" value="full">
+            <label class="form-check-label" for="full">Full Marathon</label>
+          </div>
         </div>
-        <div class="form-check">
-          <input class="form-check-input" type="radio" name="race" id="half" value="half">
-          <label class="form-check-label" for="half">Half Marathon</label>
-        </div>
-        <div class="form-check mb-4">
-          <input class="form-check-input" type="radio" name="race" id="full" value="full">
-          <label class="form-check-label" for="full">Full Marathon</label>
-        </div>
-        <div class="input-group mb-3">
-          <label for="email" class="form-label">Email</label>
-          <input type="email" class="form-control" name="email" id="email" required>
-          <label for="password" class="form-label">Password</label>
-          <input type="password" class="form-control" name="password" id="password" required>
+        <div class="row mb-3">
+          <div class="form-group col-md-6">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" name="email" id="email" required>
+          </div>
+          <div class="form-group col-md-6">
+            <label for="password" class="form-label">Password</label>
+            <input type="password" class="form-control" name="password" id="password" required>
+          </div>
         </div>
         <div>
           <label for="division" class="fs-3">Select Age group</label>
