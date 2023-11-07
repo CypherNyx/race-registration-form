@@ -130,9 +130,6 @@ nav>ul>li>a:hover {
   color: #ffffff;
 }
 
-svg:hover {
-  fill: var(--highlighter);
-}
 
 #pageLogo:hover {
   color: var(--highlighter);
